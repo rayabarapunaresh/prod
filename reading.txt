@@ -1,0 +1,339 @@
+naresh.rayabarapu@wisseninfotech.com
+Siri@12345,Sindhu@143 ,Akka@143
+ github :
+ user id :rayabarapunaresh
+ pwd : Siri@12345,Sindhu@143
+
+git remote add origin "url -of -github-repo"
+git push -u origin master
+
+Naresh Rayabarapu :AWS Cloud Architect 
+
+aws patner password: Ravs@143
+
+Key Technologies:   AWS Infrastructure, VMware, Terraform, Ansible, Docker ,git, jenkins 
+
+Specialization/Key-Expertise:  Architecture, Infra Design & Build. 
+
+Aws services :IAM ,EC2,VPC ,EBS,ELB ,S3 ,CLOUD FORMATION ,CLOUD WATCH ,CLOUS TRAIL ,ECS,SNS,SQS,AUTO SCALLING ,ROUTE 53,GLACIER,ELASTIC BENSTALK, 
+
+find user/bin/jvm/java-1.8*|head -n 3
+
+jenkins home directires -     vi .bash_profile
+m2_home=/opt/maven
+m2=/opt/maven/bin
+
+AWS CONFIGURATION :
+aws configure
+access key 
+secreat key
+region
+
+ls ~/.aws
+config  credentinal 
+
+cat ~/.aws config
+cat ~/.aws credentinal
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+
+ #!/bin/bash
+yum update -y
+yum install -y httpd
+service httpd start
+
+hostname jenkins
+hostname docker 
+maven opt floder download
+vi .bash_profile
+
+tomcat user location opt/tomcat/conf/tomacat.user.xml
+
+docker run -d --name tomcat-container -p 8080:8080 tomcat:latest
+
+user add in docker group: etc/group
+usermod -aG docker dockeradmin
+etc/ssh/sshd-config
+remove file: rm -rf filename
+remove image: docker rmi imagename
+install python - yum install python
+install pip   -yum install python-pip
+install ansible -pip install ansible 
+version -ansible --version
+ansible directory - etc/ansible  if no directory we can create one directory -mkdir  /etc/ansible
+useradd ansadmin
+that user can be add to visudo 
+yum install docker
+service docker start
+usermod -aG docker ansadmin
+ vi etc/ssh/sshd-config passwd athintication is yes
+service  start ssh -service sshd reload 
+ genarate the ssh key-   ssh-keygen
+cd .ssh
+ip addr -it gives the ip address  
+ssh ansadmin@ip adderss
+ansible all -m ping 
+ssh-copy-kid localhost
+connect the rds db instance :  data base name -hostname (end point) -user name -p 
+                               mysql -h (end point) -u naresh -p
+sudo apt-get install apache2
+home page /var/www/html
+vi ~/.bash_profile
+M2_HOME=/opt/maven/apache-maven-3.6.1
+M2=$M2_HOME/bin
+PATH=<Existing_PATH>:$M2_HOME:$M2
+
+docker run -it --name (tomcat-container) -p 8080:8080 (image name)
+addeding admin to docker group ;cat  /etc/group 
+yum install python
+python  --version
+yum install python-pip
+pip install ansible
+ip addr
+etc/ansible/hosts
+ansible-playbook -i host( playbook name)  --check
+ansible-playbook -i host( playbook name) 
+/root/.kube/config  configuration file in kubernetes
+kubectl get nodes
+kubectl get cluster
+kubectl get pods
+kubectl get deploy
+kubectl get service
+kubectl run pod podname 
+eksctl version
+eksctl get cluster
+create a s3 bucket gui:     aws s3 mb bucket name
+
+sonaqube: admin 
+pwd  : Naresh@143
+
+
+Cloud Services Enablement , Docker , Kumbernetes , Containerization
+Auto Scaling , Fine Tuning , Kubernetes Architecture
+
+
+Name	       : Naresh Rayabarapu
+Description    : Contractor
+Username       : nrayabarapu
+Password       : Modeln-123,Pandu@143
+mail           : nrayabarapu@modeln.com
+Department     : 305 - Engineering LS RC
+Manager        : Amit Avinash Ranade
+EmployeeID     : Contractor
+info           : naresh.rayabarapu@wisseninfotech.com
+
+modeln-vpn.gpcloudservice.com
+
+
+dish: chicken
+
+cable bridge
+
+
+https://artifactory.cloud.modeln.com/
+
+https://ls-jenkins.lspd.modeln.com/login?from=%2F
+
+https://revvy-modeln.atlassian.net/browse/NOC-107608 
+
+
+git config --global user.name "nrayabarapu-mn"
+
+git config --global user.email "nrayabarapu@modeln.com"
+
+
+aws eks update-kubeconfig \
+--region us-east-1 \
+--name k8s-lspd-cluster-dev \
+--role-arn arn:aws:iam::217819193785:user/nrayabarapu
+
+
+625  kubectl version --client
+  626  kubectl
+  627  mkdir AWS
+  628  mv kubectl AWS
+  629  aws configure
+  630  ls
+  631  vim .aws/config
+[profile aws-pdls]
+    role_arn = arn:aws:iam::891184672826:role/DevelopersLS
+    source_profile = default
+  632  aws s3 ls --profile aws-pdls
+  633  cd AWS
+  634  kubectl
+  635  aws eks --region us-east-1 update-kubeconfig --name k8s-lspd-cluster-dev --profile aws-pdls
+  636  kubectl get pods --all-namespaces
+
+
+
+aws sts get-caller-identity
+aws eks update-kubeconfig --region us-east-1 --name k8s-lspd-cluster-dev
+
+alias k='kubectl'
+k describe serviceaccounts -n modn-platform-configuration
+k get secrets -n modn-platform-configuration default-token-sstvs -oyaml
+cd ~/.kube
+chown tcm-tenant-config-pi: ~/.kube
+
+helm upgrade --set image.tag=2022.2-snap-c933f09 tcm helm-sapltcm/sapltcm-tenant-config-api-2022.2-snap-c933f09
+
+kubectl exec  internal-ingress-nginx-controller-57b77595dd-hpjgw  -n ingress-nginx  -- cat /etc/nginx/nginx.conf
+git checkout -b Tenant-UI
+git push -u origin Tenant-UI
+
+cd ~/.kube
+ls 
+Scaling out is when you add more instances to your Auto Scaling Group and 
+scaling in is when you reduce the number of instances in your Auto Scaling Group.
+
+
+
+AWS EMR : amazon map reduced :it is a managed cluster platform that simplifies runn  
+
+nano editer : controle x + y 
+
+
+JENKINS DOCUMENTATION :
+
+ check the java version : java -version
+ 
+remove the previous version :   yum remove java 1.7*
+install java latest version :	yum install java 1.8* 
+
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
+
+export PATH=$PATH:$JAVA_HOME/bin
+
+echo $JAVA_HOME
+
+export  M2_HOME="/opt/maven/apache-maven-3.8.6/"
+export  M2=$M2_HOME/bin
+
+vi ~/.bash_profile
+
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"
+
+export PATH=$PATH:$JAVA_HOME/bin
+
+echo $JAVA_HOME
+echo $M2_HOME
+
+download jenkins after that 
+service jenkins status 
+service jenkins start
+
+cat  /var/lib/jenkins/secrets/initalAdminPassword
+
+defalut job location jenkins  cd  /var/lib/jenkins/workspace 
+
+hostname jenkins
+
+In jenkins server we have to install GIT
+yum install git -y 
+Install git plugin without restart
+
+Manage Jenkins > Jenkins Plugins > available > github
+
+Configure git path
+
+Manage Jenkins > Global Tool Configuration > git 
+git --version 
+
+In jenkins server we have to install MAVEN 
+
+ # Creating maven directory under /opt
+ mkdir /opt/maven
+ cd /opt/maven
+ # downloading maven version 3.8.6
+
+ wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+ tar -xvzf apache-maven-3.8.6-bin.tar.gz
+
+
+
+Setup M2_HOME and M2 paths in .bash_profile of the user and add these to the path variable
+vi ~/.bash_profile
+M2_HOME="/opt/maven/apache-maven-3.8.6/"
+M2=$M2_HOME/bin
+PATH=<Existing_PATH>:$M2_HOME:$M2
+
+mvn --version
+
+Install maven plugin without restart
+Manage Jenkins > Jenkins Plugins > available > Maven Invoker
+Manage Jenkins > Jenkins Plugins > available > Maven Integration
+Configure maven path
+Manage Jenkins > Global Tool Configuration > Maven
+tar -xyzf file name 
+
+arn:aws:iam::882956824445:role/av-datasci-nonprod-cloudformation-deployer
+
+mvn clean install package 
+
+
+init 6 : restart the server 
+/etc/hostname : change the hostname 
+
+
+
+stage('SonarQube Analysis') {
+    def mvn = tool 'Default Maven';
+    withSonarQubeEnv() {
+      sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=myproject"
+    }
+  }
+
+ 
+   
+COPY /usr/local/tomcat/webapps.dist/* /usr/local/tomcat/webapps
+
+
+
+ service catlog we can create for that service creation like elb ,for that we can create target group ,ssl certificate ,host dns name attached ,we can create alb very esay 
+
+
+
+ kubernetes:  https://github.com/stephanGarland/intro-to-x/blob/main/k8s/k8s-101.md
+
+
+
+stage('Pushing to Docker-Hub') {
+            steps {  
+                
+                 {
+                sh "docker login -u ${DOCKER_HUB_ID} -p ${dockercredentials}"
+                sh "docker tag ${IMAGE_REPO_NAME}:${IMAGE_TAG} ${DOCKER_HUB_ID}/${IMAGE_REPO_NAME}:${IMAGE_TAG}"
+                sh "docker push ${DOCKER_HUB_ID}/${IMAGE_REPO_NAME}:${IMAGE_TAG}"
+                     
+
+
+https://www.coachdevops.com/search?q=kubernetes+on+ubuntu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
